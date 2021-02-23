@@ -1,0 +1,71 @@
+---
+title: "Effects of Cationic Polyacrylamide and Cationic Starch on Aquatic Life"
+author: "Katie Duggan"
+date: "2/23/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## General Notes:
+<br>
+
+### Polymers
+
+#### Cationic Polyacrylamide: 
+Commercially available polymer flocculant commonly used in geotextile tube dewatering applications
+
+<br>
+
+```{r out.width="50%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/CPAM flocc.JPG")
+```
+
+#### Cationic Starch: 
+Potential environmentally friendly alternative
+
+```{r out.width="50%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/CStarch flocc.JPG")
+```
+
+
+### Embryos
+
+#### Zebrafish: 
+AB wild-type (commonly used model system)
+
+```{r out.width="50%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/fish.PNG")
+```
+
+#### Phenotypes:
+Types of Phenotypes (see photo below)
+<br>
+
+* HE = heart edema (photo A)
+<br>
+* TE = trunk edema (photo B)
+* BE = whole body edema (photo C)
+* NT = necrotic tissue (photo D)
+* Normal embryo (top) and embryo without a swim bladder (bottom) (photo E)
+
+```{r out.width="50%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/Phenotypes.PNG")
+```
+
+## Data:
+
+'C#' = Control
+<br>
+'S#' = Cationic Starch (CStarch)
+<br>
+'P#' = Cationic Polyacrylamide (CPAM)
+<br>
+
+```{r cars}
+summary(cars)
+```
+
