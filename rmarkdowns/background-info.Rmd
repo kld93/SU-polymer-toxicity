@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ### Polymers
 
 #### Cationic Polyacrylamide: 
-Commercially available polymer flocculant commonly used in geotextile tube dewatering applications
+Commercially available polymer flocculant commonly used in geotextile tube dewatering applications. Results in large floccs. Easy to produce and relatively low cost.
 
 <br>
 
@@ -25,7 +25,7 @@ knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-tox
 ```
 
 #### Cationic Starch: 
-Potential environmentally friendly alternative
+Potential environmentally friendly alternative. Results in smaller floccs compared to CPAM. More difficult to produce (takes longer and requires more ingredients).
 
 ```{r out.width="50%", fig.align="center", echo = FALSE}
 knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/CStarch flocc.JPG")
@@ -35,7 +35,7 @@ knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-tox
 ### Embryos
 
 #### Zebrafish: 
-AB wild-type (commonly used model system)
+*Danio rerio* (zebrafish) are a commonly used vertebrate model system for toxicology studies. Zebrafish embryos are an ethical choice for these studies because the National Institutes of Health (NIH) have established that they are unlikely to be capable of experiencing suffering or distress before they are 8 days old (NIH and ARAC 2016).
 
 ```{r out.width="50%", fig.align="center", echo = FALSE}
 knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/fish.PNG")
@@ -56,6 +56,8 @@ Types of Phenotypes (see photo below)
 knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/Phenotypes.PNG")
 ```
 
+The numbers of embryos that had died were combined with the number of embryos with obvious lethal phenotypes at 7 dpf to estimate the lethality of each chemical.
+
 ## Data:
 
 'C#' = Control
@@ -64,8 +66,4 @@ knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-tox
 <br>
 'P#' = Cationic Polyacrylamide (CPAM)
 <br>
-
-```{r cars}
-summary(cars)
-```
 
