@@ -1,0 +1,11 @@
+name: "SU-polymer-toxicity"
+navbar:
+  title: "Effects of Cationic Polyacrylamide and Cationic Starch on Aquatic Life"
+  left:
+    - text: "Background Info"
+      href: index.html
+    - text: "Materials & Methods"
+      href: materials_methods.html
+    - text: "Results & Data"
+      href: results_data.html
+output_dir: "."
