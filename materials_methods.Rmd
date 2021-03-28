@@ -7,8 +7,82 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Soil
+## Sediments
+
+#### "Tully Coarse" and "Tully Fine"
+
+The sediments used for this study were obtained from Clarks Gravel Pit in Tully, New York. The sample was dry sieved through a No 200 standard sieve; anything passing was considered “Tully Fine” while anything retained on Sieve No. 200 was considered “Tully Coarse.” The specific gravity of the Tully soil was measured as 2.65.
+
+<br>
 
 ## Polymers
 
-## Zebrafish
+#### Cationic Polyacrylamide: 
+Commercially available polymer flocculant commonly used in geotextile tube dewatering applications. Results in large floccs. Easy to produce and relatively low cost.
+
+<br>
+
+```{r out.width="50%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/CPAM flocc.JPG")
+```
+
+<br>
+
+#### Cationic Starch: 
+Potential environmentally friendly alternative. Results in smaller floccs compared to CPAM. More difficult to produce (takes longer and requires more ingredients).
+
+```{r out.width="50%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/CStarch flocc.JPG")
+```
+
+<br>
+
+## Zebrafish Embryos
+
+#### Zebrafish: 
+*Danio rerio* (zebrafish) are a commonly used vertebrate model system for toxicology studies. Zebrafish embryos are an ethical choice for these studies because the National Institutes of Health (NIH) have established that they are unlikely to be capable of experiencing suffering or distress before they are 8 days old (NIH and ARAC 2016).
+
+```{r out.width="50%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/fish.PNG")
+```
+
+#### Phenotypes:
+Types of Phenotypes (see photo below)
+<br>
+
+* HE = heart edema (photo A)
+<br>
+* TE = trunk edema (photo B)
+* BE = whole body edema (photo C)
+* NT = necrotic tissue (photo D)
+* Normal embryo (top) and embryo without a swim bladder (bottom) (photo E)
+
+```{r out.width="50%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/Phenotypes.PNG")
+```
+
+The numbers of embryos that had died were combined with the number of embryos with obvious lethal phenotypes at 7 dpf to estimate the lethality of each chemical.
+
+<br>
+
+## Optimum Dose (Jar Test)
+
+<br>
+
+## Residual Polymer Concentration
+
+<br>
+
+## Chemical Exposure of Embryos
+
+<br>
+
+## Data Storage & Analysis
+
+`C#` = Control
+<br>
+`S#` = Cationic Starch (CStarch)
+<br>
+`P#` = Cationic Polyacrylamide (CPAM)
+<br>
+<br>

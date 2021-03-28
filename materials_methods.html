@@ -16,12 +16,15 @@
 <script src="site_libs/header-attrs-2.6/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">
@@ -259,6 +262,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -266,6 +332,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -308,18 +384,73 @@ $(document).ready(function () {
 </div>
 
 
-<div id="soil" class="section level2">
-<h2>Soil</h2>
+<div id="sediments" class="section level2">
+<h2>Sediments</h2>
+<div id="tully-coarse-and-tully-fine" class="section level4">
+<h4>“Tully Coarse” and “Tully Fine”</h4>
+<p>The sediments used for this study were obtained from Clarks Gravel Pit in Tully, New York. The sample was dry sieved through a No 200 standard sieve; anything passing was considered “Tully Fine” while anything retained on Sieve No. 200 was considered “Tully Coarse.” The specific gravity of the Tully soil was measured as 2.65.</p>
+<p><br></p>
+</div>
 </div>
 <div id="polymers" class="section level2">
 <h2>Polymers</h2>
+<div id="cationic-polyacrylamide" class="section level4">
+<h4>Cationic Polyacrylamide:</h4>
+<p>Commercially available polymer flocculant commonly used in geotextile tube dewatering applications. Results in large floccs. Easy to produce and relatively low cost.</p>
+<p><br></p>
+<p><img src="images/CPAM%20flocc.JPG" width="50%" style="display: block; margin: auto;" /></p>
+<p><br></p>
 </div>
-<div id="zebrafish" class="section level2">
-<h2>Zebrafish</h2>
+<div id="cationic-starch" class="section level4">
+<h4>Cationic Starch:</h4>
+<p>Potential environmentally friendly alternative. Results in smaller floccs compared to CPAM. More difficult to produce (takes longer and requires more ingredients).</p>
+<p><img src="images/CStarch%20flocc.JPG" width="50%" style="display: block; margin: auto;" /></p>
+<p><br></p>
+</div>
+</div>
+<div id="zebrafish-embryos" class="section level2">
+<h2>Zebrafish Embryos</h2>
+<div id="zebrafish" class="section level4">
+<h4>Zebrafish:</h4>
+<p><em>Danio rerio</em> (zebrafish) are a commonly used vertebrate model system for toxicology studies. Zebrafish embryos are an ethical choice for these studies because the National Institutes of Health (NIH) have established that they are unlikely to be capable of experiencing suffering or distress before they are 8 days old (NIH and ARAC 2016).</p>
+<p><img src="images/fish.png" width="50%" style="display: block; margin: auto;" /></p>
+</div>
+<div id="phenotypes" class="section level4">
+<h4>Phenotypes:</h4>
+<p>Types of Phenotypes (see photo below) <br></p>
+<ul>
+<li>HE = heart edema (photo A) <br></li>
+<li>TE = trunk edema (photo B)</li>
+<li>BE = whole body edema (photo C)</li>
+<li>NT = necrotic tissue (photo D)</li>
+<li>Normal embryo (top) and embryo without a swim bladder (bottom) (photo E)</li>
+</ul>
+<p><img src="images/Phenotypes.PNG" width="50%" style="display: block; margin: auto;" /></p>
+<p>The numbers of embryos that had died were combined with the number of embryos with obvious lethal phenotypes at 7 dpf to estimate the lethality of each chemical.</p>
+<p><br></p>
+</div>
+</div>
+<div id="optimum-dose-jar-test" class="section level2">
+<h2>Optimum Dose (Jar Test)</h2>
+<p><br></p>
+</div>
+<div id="residual-polymer-concentration" class="section level2">
+<h2>Residual Polymer Concentration</h2>
+<p><br></p>
+</div>
+<div id="chemical-exposure-of-embryos" class="section level2">
+<h2>Chemical Exposure of Embryos</h2>
+<p><br></p>
+</div>
+<div id="data-storage-analysis" class="section level2">
+<h2>Data Storage &amp; Analysis</h2>
+<p><code>C#</code> = Control <br> <code>S#</code> = Cationic Starch (CStarch) <br> <code>P#</code> = Cationic Polyacrylamide (CPAM) <br> <br></p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -352,6 +483,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
