@@ -1,0 +1,64 @@
+---
+title: "Results & Data"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Optimum Dose
+
+Optimum dose of CPAM and C. Starch for the Tully Fine and Tully Sand soil samples.
+```{r out.width="75%", fig.align="left", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/op_dose.PNG")
+```
+
+<br>
+
+Tully Fine required higher doses of both polymers than the Tully Sand. Sand particle sizes are typically already large enough to be retained within the geotextile tube, and therefore do not typically require a large dose of flocculant. C. Starch requires a larger dose in order to achieve similar flocculation and improvement in dewatering capabilities as CPAM. The fine particles require a larger dose to completely flocculate the sample for efficient dewatering, and more C. Starch is needed to achieve the same levels as CPAM.
+
+<br>
+Although the optimum dosage of cationic starch is higher, the cost of the CPAM is approximately four times greater than that of the cationic starch. This indicates that the increase in optimum dosage does not lead to an increase in the overall cost.
+
+<br>
+
+## Residual Concentration
+
+It was observed that flocs formed by using CPAM were larger than by using C. Starch. Therefore, only Tully Fine was used for further testing of residual polymer concentration.  
+
+<br>
+Residual polymer in samples treated with optimum dose and a 50% overdose.
+```{r out.width="75%", fig.align="left", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/res_poly.PNG")
+```
+
+<br>
+The samples show substantially low residual polymer concentrations when treated with optimum dose of CPAM and C. Starch (i.e., 1.2 ppm and 1.1 ppm, respectively). Since optimum dose refers to the ideal amount of flocculant that achieves proper flocculation but does not result in excess polymer, these low values are expected. These results also verify that the optimum dose determined previously is substantially close to the actual optimum dose, but not perfectly accurate (exact optimum dose would theoretically result in ~0 ppm residual concentration).
+
+<br>
+The residual concentration of C. Starch suggests that residual polymer may not be a concern when using C. Starch in geotextile tube dewatering. However, the residual concentration of CPAM was as high as 17.4 ppm. While a 50% overdose may be higher than what is likely to occur in the field, these results demonstrate that overdosing of CPAM is a potential environmental concern.
+
+<br>
+
+## Toxicity & Lethality
+
+<br>
+
+## Other Outputs:
+
+#### Published Paper
+https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000467
+
+<br>
+
+#### GitHub Repo:
+https://github.com/kld93/SU-polymer-toxicity 
+
+<br>
+
+#### Research Summary Poster
+```{r out.width="100%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/poster.PNG")
+```
+
