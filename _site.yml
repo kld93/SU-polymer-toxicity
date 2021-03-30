@@ -8,6 +8,8 @@ navbar:
       href: materials_methods.html
     - text: "Results & Data"
       href: results_data.html
+    - text: "Acknowledgments"
+      href: acknowledge.html
 output_dir: "."
 output:
   html_document:

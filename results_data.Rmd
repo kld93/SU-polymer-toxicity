@@ -43,6 +43,29 @@ The residual concentration of C. Starch suggests that residual polymer may not b
 
 ## Toxicity & Lethality
 
+In the toxicity experiments, far fewer abnormal phenotypes were observed in embryos exposed to C. Starch than embryos exposed to CPAM. The most common phenotype observed in CPAM exposed embryos was a burst open yolk sac (the yolk sac provides food/nutrients during the early stages of life). If the embryos survived the initial burst yolk sac, necrosis (i.e. death of cells) began to appear shortly after, which ultimately killed the embryos. 
+
+<br>
+
+```{r out.width="75%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/dechorion_results.PNG")
+```
+
+<br>
+```{r out.width="75%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/chorion_results.PNG")
+```
+
+<br>
+
+CPAM affected the embryos relatively quickly, often causing fatalities and sometimes killing all 30 embryos in a dish within two hours of dechorionation. Most of the dechorionated embryos died by 2–3 dpf. In contrast, embryos that were left in their chorions usually survived to 4 dpf, and some survived until 7 dpf. In addition, 100% +/− 1.10 of the dechorionated embryos exposed to CPAM were dead or dying by 7 dpf compared to 71.8% +/− 0.414 for non-dechorionated embryos. Taken together, these results suggest that the chorion has a partially protective effect against CPAM exposure.
+
+<br>
+```{r out.width="75%", fig.align="center", echo = FALSE}
+knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/timeline.PNG")
+```
+
+<br>
 <br>
 
 ## Other Outputs:

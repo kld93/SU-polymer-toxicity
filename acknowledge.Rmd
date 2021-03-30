@@ -1,0 +1,13 @@
+---
+title: "Acknowledgments"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+<br>
+
+Funding was provided by the National Science Foundation (NSF) Research Experience for Undergraduates (REU) fellowship (Grant #CMMI 1100131) to Katie L. Duggan and by Hill Collaboration Funds to Katharine E. Lewis. Research in the Lewis Lab was also supported by NIH NINDS R01 NS077947, NSF IOS-1257583 HFSP RGP0063, and New York State Spinal Cord Injury Funds. Additional thanks to José Marrero Rosado and Joanna Ding for preliminary experiments exposing zebrafish embryos to CPAM and C. Starch, where it was first observed that the CPAM appeared to stick to the zebrafish chorions. Thanks to Dr Jason Fridley for help with statistical analyses, April Kessler for help with some of the zebrafish experiments, and Sam England for taking photos of some of the zebrafish. Lastly, thanks to Ginny Grieb and Lewis Lab fish husbandry workers for maintaining zebrafish, and other members of the Bhatia and Lewis Labs for their assistance and collaboration in the lab.
