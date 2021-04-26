@@ -66,22 +66,4 @@ knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-tox
 ```
 
 <br>
-<br>
-
-## Other Outputs:
-
-#### Published Paper
-https://doi.org/10.1061/(ASCE)HZ.2153-5515.0000467
-
-<br>
-
-#### GitHub Repo:
-https://github.com/kld93/SU-polymer-toxicity 
-
-<br>
-
-#### Research Summary Poster
-```{r out.width="100%", fig.align="center", echo = FALSE}
-knitr::include_graphics("C:/Users/Katie/OneDrive/Documents/github/SU-polymer-toxicity/images/poster.PNG")
-```
 
